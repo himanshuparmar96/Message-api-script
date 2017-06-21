@@ -14,7 +14,7 @@ echo "<br/>Message:".$msg."<br/>number:".$number;
 
 if ($_POST["submit"]==true) 
 {
-	$curl=curl_init('link(url) of api');
+	$curl=curl_init('api link(url)');
 
 	curl_setopt($curl, CURLOPT_POST,true);
 	curl_setopt($curl, CURLOPT_POSTFIELDS,$vars);
